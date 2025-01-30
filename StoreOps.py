@@ -56,10 +56,10 @@ def generate_code(topic,inputjson):
 
 def get_sales(topic):
     print(f"----> LOG {topic}")
-    url = (f"http://192.168.3.61:8080/sap/opu/odata/APLXCR/POS_MR_MAIN_SRV/MainSet?sap-client=300&$format=json&$top=50&$select=Store,Businessdaydate,Originalsum,Adjustmentsum,Resultsum&$orderby=Store%2C%20Businessdaydate%20asc&$filter=IDateFrom%20eq%20%2720220101%27%20and%20IDateTo%20eq%20%2720220201%27")
+    url = (f"https://s4crm.applexus.com:8888/sap/opu/odata/APLXCR/POS_MR_MAIN_SRV/MainSet?sap-client=300&$format=json&$top=50&$select=Store,Businessdaydate,Originalsum,Adjustmentsum,Resultsum&$orderby=Store%2C%20Businessdaydate%20asc&$filter=IDateFrom%20eq%20%2720220101%27%20and%20IDateTo%20eq%20%2720220201%27")
 
     try:
-        response = requests.get(url,auth = (os.getenv('USER_ID'),os.getenv('PASSWORD')))
+        response = requests.get(url,auth = (os.getenv("USER_ID"),os.getenv("PASSWORD")))
         print(f"----> Response {response.status_code}{response.reason}")
         if response.status_code == 200:
             sales = json.dumps(response.json(), indent=4)
