@@ -105,7 +105,7 @@ def get_sales(topic):
         else:
              return []
 
-    except requests.exceptions.requests.RequestException as e:
+    except requests.exceptions as e:
         print("Error occured during API request",e)
 
 
