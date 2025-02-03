@@ -1,0 +1,12 @@
+{
+    "model": "llama3.2",
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me population in the world"        
+      }
+    ],
+    "format": "json",
+    "stream": false
+  }
+  

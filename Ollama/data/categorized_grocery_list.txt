@@ -1,0 +1,64 @@
+It's-a me, Mario! I'm here to help you sort your grocery list. Here are the categorized and sorted items:
+
+**Produce:**
+1. Almonds
+2. Apples
+3. Bananas
+4. Bell Peppers
+5. Broccoli
+6. Carrots
+7. Garlic
+8. Lettuce
+9. Mushrooms
+10. Onions
+11. Potatoes
+12. Spinach
+13. Strawberries
+14. Tomatoes
+
+**Dairy:**
+1. Butter
+2. Cheese
+3. Eggs
+4. Milk
+5. Yogurt
+
+**Meat/Poultry:**
+1. Chicken Breast
+2. Ground Beef
+3. Salmon
+4. Shrimp
+5. Sausages
+
+**Bakery:**
+1. Bread
+2. Cereal
+3. Granola Bars
+4. Oatmeal
+5. Pasta
+
+**Pantry:**
+1. Almonds
+2. Broccoli (can be used as a vegetable, but also has flour uses)
+3. Flour
+4. Honey
+5. Olive Oil
+6. Peanut Butter
+7. Sugar
+
+**Beverages:**
+1. Coffee
+2. Orange Juice
+3. Soda
+4. Tea
+
+**Frozen Treats:**
+1. Ice Cream
+
+**Household/Personal Care:**
+1. Dish Soap
+2. Laundry Detergent
+3. Paper Towels
+4. Shampoo
+5. Toilet Paper
+6. Toothpaste
